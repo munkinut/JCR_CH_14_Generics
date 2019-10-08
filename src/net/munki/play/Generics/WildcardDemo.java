@@ -25,7 +25,7 @@ public class WildcardDemo {
         Float fnums[] = {1.0F,2.0F,3.0F,4.0F,5.0F};
         Stats<Float> fOb = new Stats<>(fnums);
         Double x = fOb.average();
-        System.out.println("fOb average = " + w);
+        System.out.println("fOb average = " + x);
         
         System.out.print("Averages of iOb and dOB ");
         if(iOb.sameAvg(dOb))
